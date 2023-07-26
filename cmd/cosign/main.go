@@ -31,6 +31,7 @@ import (
 	_ "github.com/sigstore/sigstore/pkg/signature/kms/azure"
 	_ "github.com/sigstore/sigstore/pkg/signature/kms/gcp"
 	_ "github.com/sigstore/sigstore/pkg/signature/kms/hashivault"
+	_ "github.com/syan10/sigstore/pkg/signature/kms/ehsm"
 )
 
 func main() {
